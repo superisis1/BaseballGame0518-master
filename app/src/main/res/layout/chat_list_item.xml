@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:id="@+id/userMsgFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/speech_bubble_user"
+            android:scaleType="fitXY"
+            android:layout_height="90dp" />
+
+        <TextView
+            android:id="@+id/userMessageTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:textSize="18sp"
+            tools:text="사용자가 입력한 메세지"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/computerMsgFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/speech_bubble_computer"
+            android:scaleType="fitXY"
+            android:layout_height="90dp" />
+
+        <TextView
+            android:id="@+id/computerMessageTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="35dp"
+            android:textSize="18sp"
+            tools:text="컴퓨터가 대답한 메세지"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>
