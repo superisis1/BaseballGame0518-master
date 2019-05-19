@@ -1,12 +1,10 @@
 package com.tje.baseballgame;
 
 import android.databinding.DataBindingUtil;
-import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
 
 import com.tje.baseballgame.adapters.ChatAdapter;
 import com.tje.baseballgame.databinding.ActivityMainBinding;
